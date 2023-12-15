@@ -31,16 +31,15 @@ const createMail = {
   <div
     style="
       width: 360px;
-      height: 911px;
       background: #edf1fd;
       margin: auto;
       padding: 16px;
       box-sizing: border-box;
     "
   >
-    <div style="height: 100%; width: 100%">
-      <div style="width: fit-content; margin: 0px auto; height: 7%">
-        <img src=${"https://yesudoss-aeq.github.io/mail-template/assets/Logo.png"} alt="logo" />
+    <div style="width: 100%">
+      <div style="width: fit-content; margin: 0px auto; height: 7%;padding-bottom:15px">
+      <img src=${"https://yesudoss-aeq.github.io/mail-template/assets/Logo.png"} alt="logo" />
       </div>
 
       <div
@@ -125,13 +124,13 @@ const createMail = {
             </div>
           </div>
         </div>
-        <div style="height: 50%">
+
+        <div>
           <div
             style="
-              height: 65%;
-              border-bottom: 2px solid #e5edff;
               padding: 20px;
               box-sizing: border-box;
+              border-bottom: 2px solid #e5edff;
             "
           >
             <div style="width: 100%; padding-bottom: 16px; margin-top: 20px">
@@ -146,7 +145,7 @@ const createMail = {
                   padding-bottom: 10px;
                 "
               >
-                👋🏻 Hi ${"John"},
+              👋🏻 Hi ${"John"},
               </h2>
               <p
                 style="
@@ -159,7 +158,7 @@ const createMail = {
                   margin: 0;
                 "
               >
-                ${"Excited to invite you to our AI-enabled interview!"}
+              ${"Excited to invite you to our AI-enabled interview!"}
               </p>
             </div>
             <div style="width: 100%; padding-bottom: 25px">
@@ -187,10 +186,10 @@ const createMail = {
                 "
               >
                 🔗 Interview Link:<span style="color: #3064e9"
-                  > <a style="text-decoration: none;color: #3064e9" href=${"www.google.com"}
-                  >${"www.easyhire.aeq....com"}</a
-                ></span
-                >
+                  ><a style="text-decoration: none" href=${"www.google.com"}
+                    >${"www.easyhire.aeq....com"}</a
+                  >
+                </span>
               </p>
             </div>
             <div style="width: 100%">
@@ -206,9 +205,16 @@ const createMail = {
                   text-align: center;
                 "
               >
-                Questions? We’re here to <span style="color: #3064e9"><a style="text-decoration: none;color: #3064e9" href=${"www.google.com"}
-                >${"help."}</a
-              > </span>Good luck!</p>
+                Questions? We’re here to<span style="color: #3064e9">
+                  <a
+                    style="text-decoration: none; color: #3064e9"
+                    href=${"www.google.com"}
+                    >${"help."}</a
+                  ></span
+                >
+
+                Good luck!
+              </p>
               <p
                 style="
                   font-family: Poppins;
@@ -224,9 +230,16 @@ const createMail = {
               </p>
             </div>
           </div>
-          <div style="height: 35%">
-            <div style="height: 75%">
-              <div style="float: left; margin-left: 20px; margin-top: 20px">
+          <div>
+            <div>
+              <div
+                style="
+                  margin-left: 20px;
+                  margin-top: 20px;
+                  float: left;
+                  padding-bottom: 15px;
+                "
+              >
                 <p
                   style="
                     font-weight: 400;
@@ -249,7 +262,7 @@ const createMail = {
                     padding-bottom: 4px;
                   "
                 >
-                  ${"Suraj Mandal"}
+                ${"Suraj Mandal"}
                 </h2>
                 <p
                   style="
@@ -261,7 +274,7 @@ const createMail = {
                     padding-bottom: 4px;
                   "
                 >
-                  ${"UX Designer"}
+                ${"UX Designer"}
                 </p>
                 <p
                   style="
@@ -272,35 +285,42 @@ const createMail = {
                     margin: 0;
                   "
                 >
-                  ${"Aequalis"}
+                ${"Aequalis"}
                 </p>
               </div>
               <div style="float: right; margin-right: 20px; margin-top: 20px">
                 <img src=${"https://yesudoss-aeq.github.io/mail-template/assets/LogoAeq.png"} alt="AequalisLogo" />
               </div>
             </div>
-            <div style="height: 25%; background-color: #c2d4ff">
-            <div style="width: fit-content; padding-top: 10px; margin: auto">
-            <div style="float: left">
-              <p
+            <div style="background-color: #c2d4ff; clear: both">
+              <div
                 style="
-                  font-family: League Spartan;
-                  font-size: 14px;
-                  font-weight: 600;
-                  line-height: 13px;
-                  color: #05112e99;
-                  margin: 0;
-                  padding-right: 13px;
-                  padding-top: 0px;
+                  width: fit-content;
+                  padding-top: 5px;
+                  margin: auto;
+                  height: 25px;
                 "
               >
-                powered by
-              </p>
-            </div>
-            <div style="float: right">
-              <img src=${"https://yesudoss-aeq.github.io/mail-template/assets/aequalisHireLogo.png"} alt="easyHire" />
-            </div>
-          </div>
+                <div style="float: left">
+                  <p
+                    style="
+                      font-family: League Spartan;
+                      font-size: 14px;
+                      font-weight: 600;
+                      line-height: 13px;
+                      color: #05112e99;
+                      margin: 0;
+                      padding-right: 13px;
+                      padding-top: 2px;
+                    "
+                  >
+                    powered by
+                  </p>
+                </div>
+                <div style="float: right">
+                  <img src=${"https://yesudoss-aeq.github.io/mail-template/assets/aequalisHireLogo.png"} alt="easyHire" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
